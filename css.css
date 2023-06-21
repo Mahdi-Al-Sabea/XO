@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(../js3/green-slate.jpg);
+background-size: cover;
+
+}
+
+
+.game{
+    background-color: rgb(77, 86, 86);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+
+
+
+.container{
+height: 325px;
+width: 325px;
+background-color: rgba(165, 42, 42, 0);
+}
+
+
+
+
+
+.col-4{
+ 
+    background-color: rgb(45, 158, 51);
+    color:  rgba(174, 89, 89, 0);
+   height: 100px;
+   width: 100px;
+    border: 2px solid black;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+
+
+#score{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+#rst{
+  
+  height: 60px;
+  width: 120px;
+  background-color: gray;  
+
+
+   
+}
+
+#rst:hover{
+    scale: 1.1;
+    border-radius: 15px;
+    background-color: black;
+    color: yellowgreen;
+}
