@@ -19,7 +19,7 @@ let toggle=0;
                 if(toggle===1){return console.log('finished');}
                 
                 if( x==="x"){
-                    element.style.backgroundImage = "url('C:/Users/mahdi/OneDrive/Desktop/C++/js3/close.png')";
+                    element.style.backgroundImage = "url('close.png')";
                     var index = parseInt(element.innerText);
                     matrix[index] = 'x'; // Assigning 'x' to the element at the parsed index
 
@@ -28,7 +28,7 @@ let toggle=0;
                         return console.log("continue");}
                 
                 else{
-                    element.style.backgroundImage = "url('C:/Users/mahdi/OneDrive/Desktop/C++/js3/circle-ring.png')";
+                    element.style.backgroundImage = "url('circle-ring.png')";
                     var index = parseInt(element.innerText);
                     matrix[index] = 'o'; // Assigning 'x' to the element at the parsed index
 
